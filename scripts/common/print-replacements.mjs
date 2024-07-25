@@ -40,7 +40,7 @@ const printLine = (name, value) => {
     value = "(missing)";
   }
   
-  console.log(`${formatName(name)}:  ${value}`);
+  //console.log(`${formatName(name)}:  ${value}`);
 }
 
 export default (allReplacements) => {
